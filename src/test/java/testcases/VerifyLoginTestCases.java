@@ -1,11 +1,7 @@
 package testcases;
 
 import java.io.IOException;
-
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import PageObjectModel.LoginPagecObjects;
 import resources.BaseClass;
 import resources.CommonMethods;
@@ -14,7 +10,7 @@ import resources.Constant;
 public class VerifyLoginTestCases extends BaseClass {
 
 	@Test
-	public void verifyRegistrationWithValidData() throws IOException, InterruptedException {
+	public void verifyLoginWithValidData() throws IOException, InterruptedException {
 		
 		LoginPagecObjects lpo = new LoginPagecObjects(driver);
 		
@@ -33,7 +29,7 @@ public class VerifyLoginTestCases extends BaseClass {
 	}
 
 	@Test
-	public void verifyRegistrationWithInvalidData() throws IOException, InterruptedException {
+	public void verifyLoginWithInvalidData() throws IOException, InterruptedException {
 
 		LoginPagecObjects lpo = new LoginPagecObjects(driver);
 

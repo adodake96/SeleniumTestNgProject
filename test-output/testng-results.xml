@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-27T23:40:57 IST" name="Default suite" finished-at="2024-04-27T23:41:09 IST" duration-ms="12315">
+  <suite started-at="2024-04-30T07:27:48 IST" name="Default suite" finished-at="2024-04-30T07:27:55 IST" duration-ms="6901">
     <groups>
     </groups>
-    <test started-at="2024-04-27T23:40:57 IST" name="Default test" finished-at="2024-04-27T23:41:09 IST" duration-ms="12315">
-      <class name="testcases.VerifyLoginTestCases">
-        <test-method is-config="true" signature="launchBrowserandUrl()[pri:0, instance:testcases.VerifyLoginTestCases@2ef3eef9]" started-at="2024-04-27T23:40:57 IST" name="launchBrowserandUrl" finished-at="2024-04-27T23:41:02 IST" duration-ms="5144" status="PASS">
+    <test started-at="2024-04-30T07:27:48 IST" name="Default test" finished-at="2024-04-30T07:27:55 IST" duration-ms="6901">
+      <class name="testcases.AddingProductToCart">
+        <test-method is-config="true" signature="launchBrowserandUrl()[pri:0, instance:testcases.AddingProductToCart@7722c3c3]" started-at="2024-04-30T07:27:48 IST" name="launchBrowserandUrl" finished-at="2024-04-30T07:27:52 IST" duration-ms="4228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserandUrl -->
-        <test-method signature="verifyRegistrationWithInvalidData()[pri:0, instance:testcases.VerifyLoginTestCases@2ef3eef9]" started-at="2024-04-27T23:41:02 IST" name="verifyRegistrationWithInvalidData" finished-at="2024-04-27T23:41:03 IST" duration-ms="1102" status="PASS">
+        <test-method signature="AddingNewProductToCart()[pri:0, instance:testcases.AddingProductToCart@7722c3c3]" started-at="2024-04-30T07:27:52 IST" name="AddingNewProductToCart" finished-at="2024-04-30T07:27:55 IST" duration-ms="2536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegistrationWithInvalidData -->
-        <test-method is-config="true" signature="launchBrowserandUrl()[pri:0, instance:testcases.VerifyLoginTestCases@2ef3eef9]" started-at="2024-04-27T23:41:03 IST" name="launchBrowserandUrl" finished-at="2024-04-27T23:41:07 IST" duration-ms="3987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowserandUrl -->
-        <test-method signature="verifyRegistrationWithValidData()[pri:0, instance:testcases.VerifyLoginTestCases@2ef3eef9]" started-at="2024-04-27T23:41:07 IST" name="verifyRegistrationWithValidData" finished-at="2024-04-27T23:41:09 IST" duration-ms="2001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegistrationWithValidData -->
-      </class> <!-- testcases.VerifyLoginTestCases -->
+        </test-method> <!-- AddingNewProductToCart -->
+      </class> <!-- testcases.AddingProductToCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
